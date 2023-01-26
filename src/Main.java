@@ -6,6 +6,5 @@ public class Main {
         String str = "D:/Hello/abc.html";
         System.out.println(Path.GetFileNameWithType(str));
         System.out.println("Hello world!");
-        System.out.println("Hello Git");
     }
 }
