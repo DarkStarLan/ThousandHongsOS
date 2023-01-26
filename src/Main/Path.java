@@ -9,6 +9,6 @@ public class Path {
     }
     public static String GetFileNameWithType(String Load) {
         int slash_pos = Load.lastIndexOf('/');
-        return Load.substring(slash_pos == -1 ? 0 : slash_pos + 1, Load.length() - slash_pos);
+        return Load.substring(slash_pos == -1 ? 0 : slash_pos + 1);
     }
 }
